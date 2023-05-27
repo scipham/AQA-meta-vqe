@@ -1,7 +1,5 @@
 # AQA-meta-vqe
 
-![](plots_and_output/fig2_abs_energy_and_rel_err_q10.png)
-
  **!! NOTE: The python + cirq notebook is legacy code for reference. It should work fine but the Julia + Yao Edition is much more up-to-date and tested. !!**
  
 The Julia Edition notebook requires Julia v1.7+. However, v1.9 is highly recommended and tested. 
@@ -10,3 +8,6 @@ Required Julia packages: StatsBase.jl, Distributions.jl, StatsPlots.jl, Plots.jl
 But you may need additional packages, depending on your needs. By default we also try to import Zygote.jl, OptimizationOptimisers.jl, OptimizationNLopt.jl, OptimizationMultistartOptimization.jl
 
 For performance acceleration on either CPUs or GPUs we also recommend to install MKL.jl, CUDA.jl and CuYao.jl
+
+![](plots_and_output/fig2_abs_energy_and_rel_err_q10.png)
+
