@@ -1,5 +1,7 @@
 # AQA-meta-vqe
 
+![](plots_and_output/fig2_abs_energy_and_rel_err_q10.png)
+
  **!! NOTE: The python + cirq notebook is legacy code for reference. It should work fine but the Julia + Yao Edition is much more up-to-date and tested. !!**
  
 The Julia Edition notebook requires Julia v1.7+. However, v1.9 is highly recommended and tested. 
